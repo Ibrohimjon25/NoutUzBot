@@ -1,3 +1,3 @@
 <?php
-  echo "salom";
+  echo "salom bolalar!!!";
 ?>
