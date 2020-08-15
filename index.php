@@ -28,6 +28,9 @@ $message = $update['result'][0]['message'];
 $chat_id = $message['chat']['id'];
 $text = $message['text'];
 
+echo "<pre>";
+print_r($update);
+
 $button = json_encode([
     'resize_keyboard'=>true,
     'keyboard'=>[
