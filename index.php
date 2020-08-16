@@ -29,6 +29,7 @@ $chat_id = $message->chat->id;
 $text = $message->text;
 
 echo "<pre>";
+echo "Assalomu alaykuuum!!!";
 print_r($update);
 
 if (isset($text)){
