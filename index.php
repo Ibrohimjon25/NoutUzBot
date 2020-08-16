@@ -28,6 +28,9 @@ $message = $update->message;
 $chat_id = $message->chat->id;
 $text = $message->text;
 
+echo "<pre>";
+print_r($update);
+
 if (isset($text)){
     typing($chat_id);
 }
